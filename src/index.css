@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(17 24 39);
+    color: #fafafa;
+  }
+}
+
+@media screen {
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
+
+.dividerBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.dividerTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.dividerBottom svg {
+  position: relative;
+  display: block;
+  width: calc(107% + 1.3px);
+  height: 114px;
+}
+
+.dividerTop svg {
+  position: relative;
+  display: block;
+  width: calc(107% + 1.3px);
+  height: 114px;
+  transform: rotateY(180deg);
+}
