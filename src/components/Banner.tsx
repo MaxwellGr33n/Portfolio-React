@@ -55,7 +55,7 @@ export default function Banner(): JSX.Element {
                   smooth={true}
                   offset={50}
                   duration={500}
-                  className="text-sm font-semibold cursor-pointer leading-6 px-4 py-1 rounded-full text-gray-900 bg-white hover:bg-neutral-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
+                  className="text-sm font-semibold cursor-pointer leading-6 px-4 py-2 rounded-full text-gray-900 bg-white hover:bg-neutral-50 dark:text-neutral-50 dark:bg-gray-800 dark:hover:bg-gray-900 hover:shadow-md focus:shadow-md"
                   aria-label={`Navigate to ${item.name}`} // Use item.name as a label
                 >
                   {item.name}
