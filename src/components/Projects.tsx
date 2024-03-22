@@ -9,7 +9,7 @@ export default function Projects(): JSX.Element {
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-b from-black to-blue-800">
           <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-5/6 h-auto">
             <div className="p-3 sm:p-6 text-xl lg:text-4xl">
-              <img src='src/assets/images/Screenshot-betmates.png' />
+              <img src='/Screenshot-betmates.png' />
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Projects(): JSX.Element {
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-t from-black to-blue-800">
           <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-4/6 h-auto">
             <div className="p-3 sm:p-6 text-xl lg:text-4xl">
-              <img src='src/assets/images/Screenshot-weddingWebsite.png' />
+              <img src='/Screenshot-weddingWebsite.png' />
             </div>
           </div>
         </div>
