@@ -15,7 +15,7 @@ export default function Projects(): JSX.Element {
         </div>
         <DividerBottom />
         <div className="flex space-x-4 justify-center py-3 relative -mt-20 z-auto">
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="bet-mates-vue.vercel.app" target="_blank" rel="noopener noreferrer">
             <div className="bg-blue-700 rounded-2xl shadow-md py-2 px-3 sm:p-3">
               <span className="text-center text-white font-semibold text-xs sm:text-lg xl:text-xl">
                 Demo
