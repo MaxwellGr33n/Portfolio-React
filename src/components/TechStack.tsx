@@ -10,7 +10,7 @@ export default function TechStack(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-100 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+            <div className="bg-white dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
               <div className="flex justify-center px-3 pt-3 lg:pt-4 xl:pt-5">
                 <img
                   src="typescript.svg"
@@ -25,7 +25,7 @@ export default function TechStack(): JSX.Element {
             </div>
           </a>
           <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-            <div className="bg-neutral-100 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+            <div className="bg-white dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
               <div className="flex justify-center px-3 pt-3 lg:pt-5">
                 <img src="react.svg" alt="React" height="90%" width="90%" />
               </div>
@@ -39,7 +39,7 @@ export default function TechStack(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-100 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+            <div className="bg-white dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
               <div className="flex justify-center px-3 pt-3">
                 <img src="Vue.svg" alt="Vue 3" height="90%" width="90%" />
               </div>
@@ -53,7 +53,7 @@ export default function TechStack(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-100 dark:bg-gray-800 flex flex-col justify-between aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+            <div className="bg-white dark:bg-gray-800 flex flex-col justify-between aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
               <div className="flex justify-center px-3 pt-3 lg:pt-4 pb-1">
                 <img src="nextjs.svg" alt="Next.js" height="85%" width="85%" />
               </div>
@@ -67,7 +67,7 @@ export default function TechStack(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-100 dark:bg-gray-800 flex flex-col justify-between aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+            <div className="bg-white dark:bg-gray-800 flex flex-col justify-between aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
               <div className="flex justify-center px-3 pt-4 md:py-9">
                 <img src="TailwindLogo.svg" alt="Tailwind CSS" height="90%" width="90%" />
               </div>
@@ -81,7 +81,7 @@ export default function TechStack(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-100 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+            <div className="bg-white dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
               <div className="flex justify-center px-3 pt-3">
                 <img src="mongo.svg" alt="MonoDB" height="90%" width="90%" />
               </div>

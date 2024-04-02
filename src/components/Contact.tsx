@@ -13,7 +13,7 @@ export default function Contact(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-50 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden">
+            <div className="bg-white dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden">
               <div className="flex justify-center px-3 pt-2">
                 <img src="mail.svg" alt="Email" height="90%" width="90%" />
               </div>
@@ -27,7 +27,7 @@ export default function Contact(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-50 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden">
+            <div className="bg-white dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden">
               <div className="flex justify-center px-3 pt-2">
                 <img
                   src="linkedin.svg"

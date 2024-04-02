@@ -14,7 +14,7 @@ export default function Projects(): JSX.Element {
           </div>
         </div>
         <DividerBottom />
-        <div className="flex space-x-4 justify-center py-3 relative -mt-20 z-auto">
+        <div className="flex space-x-4 justify-center pt-7 relative -mt-20 z-auto">
           <a href="https://bet-mates-vue.vercel.app/" target="_blank" rel="noopener noreferrer">
             <div className="bg-blue-700 rounded-2xl shadow-md py-2 px-3 sm:p-3">
               <span className="text-center text-white font-semibold text-xs sm:text-lg xl:text-xl">
@@ -51,9 +51,9 @@ export default function Projects(): JSX.Element {
           </div>
         </div>
         <DividerBottom />
-        <div className="flex space-x-4 justify-center py-3 relative -mt-20 z-auto">
+        <div className="flex space-x-4 justify-center pt-7 relative -mt-20 z-auto">
           <a href="https://www.maxnjem.com/" target="_blank" rel="noopener noreferrer">
-            <button className="bg-blue-700 rounded-2xl shadow-md py-2 px-3 sm:p-3">
+            <button className="bg-blue-700 rounded-2xl shadow-md py-2 px-4 sm:p-3">
               <span className="text-center text-white font-semibold text-xs sm:text-lg xl:text-xl">
                 Live
               </span>
@@ -79,7 +79,7 @@ export default function Projects(): JSX.Element {
         </div>
       </section>
 
-      <section id="project3">
+      {/* <section id="project3">
         <DividerTop />
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-b from-black to-blue-800">
           <div className="flex justify-center items-center bg-neutral-50 dark:bg-gray-800 shadow-lg rounded-xl w-4/6 h-auto">
@@ -121,7 +121,7 @@ export default function Projects(): JSX.Element {
             veritatis dicta maxime ipsam velit?
           </p>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
