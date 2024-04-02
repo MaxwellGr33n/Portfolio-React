@@ -35,16 +35,16 @@ export default function TechStack(): JSX.Element {
             </div>
           </a>
           <a
-            href="https://vitejs.dev/"
+            href="https://vuejs.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="bg-neutral-100 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
               <div className="flex justify-center px-3 pt-3">
-                <img src="vite.svg" alt="Vite" height="90%" width="90%" />
+                <img src="Vue.svg" alt="Vue 3" height="90%" width="90%" />
               </div>
               <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl lg:pt-1 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
-                Vite
+                Vue 3
               </p>
             </div>
           </a>
@@ -53,8 +53,8 @@ export default function TechStack(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-100 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
-              <div className="flex justify-center px-3 pt-3 lg:pt-4">
+            <div className="bg-neutral-100 dark:bg-gray-800 flex flex-col justify-between aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+              <div className="flex justify-center px-3 pt-3 lg:pt-4 pb-1">
                 <img src="nextjs.svg" alt="Next.js" height="85%" width="85%" />
               </div>
               <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl sm:pt-1 2xl:pt-3 bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
@@ -63,16 +63,16 @@ export default function TechStack(): JSX.Element {
             </div>
           </a>
           <a
-            href="https://nodejs.org/"
+            href="https://tailwindcss.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="bg-neutral-100 dark:bg-gray-800 aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
-              <div className="flex justify-center px-3 pt-3">
-                <img src="node.svg" alt="Node.js" height="90%" width="90%" />
+            <div className="bg-neutral-100 dark:bg-gray-800 flex flex-col justify-between aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
+              <div className="flex justify-center px-3 pt-5 md:py-9">
+                <img src="TailwindLogo.svg" alt="Tailwind CSS" height="90%" width="90%" />
               </div>
-              <p className="text-center text-transparent font-semibold text-xs sm:text-md xl:text-xl bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
-                Node.js
+              <p className="text-center text-transparent font-semibold pb-1 md:pb-2 text-xs sm:text-md xl:text-xl bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
+                Tailwind CSS
               </p>
             </div>
           </a>
