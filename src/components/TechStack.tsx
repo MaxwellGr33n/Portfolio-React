@@ -68,7 +68,7 @@ export default function TechStack(): JSX.Element {
             rel="noopener noreferrer"
           >
             <div className="bg-neutral-100 dark:bg-gray-800 flex flex-col justify-between aspect-square rounded-lg shadow-md hover:shadow-xl overflow-hidden hover:scale-125">
-              <div className="flex justify-center px-3 pt-5 md:py-9">
+              <div className="flex justify-center px-3 pt-4 md:py-9">
                 <img src="TailwindLogo.svg" alt="Tailwind CSS" height="90%" width="90%" />
               </div>
               <p className="text-center text-transparent font-semibold pb-1 md:pb-2 text-xs sm:text-md xl:text-xl bg-clip-text bg-gradient-to-r from-blue-300 to-purple-900">
