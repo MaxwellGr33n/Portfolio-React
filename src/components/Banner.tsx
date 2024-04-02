@@ -62,7 +62,7 @@ export default function Banner(): JSX.Element {
                 </Link>
               ))}
               <a
-                href="https://drive.google.com/file/d/13WBy0HqH6rgxCJ6nVieAsLzeQ4xpwcc9/view?usp=share_link"
+                href="https://drive.google.com/file/d/1xiJQ-d4skwZKJdv7Jf4hURPW8NqDqBEg/view?usp=sharing"
                 target="_blank"
                 onClick={() => {
                   setMobileMenuOpen(false)
