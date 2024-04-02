@@ -37,8 +37,7 @@ export default function Projects(): JSX.Element {
             Betting platform inspired by Ladbrokes
           </h1>
           <p className="dark:text-neutral-50 text-sm sm:text-xl">
-          Presenting my Ladbrokes website clone—a showcase of my expertise in modern web development technologies. Leveraging Vue 3 for its robust and reactive framework, I've employed Pinia for state management, ensuring a streamlined user experience. My implementation of TypeScript underscores my commitment to type-safe and maintainable code, while Axios handles seamless API integrations. Complementing these technologies, the sleek and responsive design is achieved using Tailwind CSS. This project encapsulates my proficiency in Vue 3, Pinia, Axios, TypeScript, and Tailwind, demonstrating my ability to create dynamic and user-centric web applications.
-          </p>
+          Betmates — a testament to my expertise in modern web development technologies and practices. Built with Vue 3, this project leverages Pinia for efficient state management and Firebase Authentication for secure and persistent user data, ensuring a responsive and intuitive user interface. My use of TypeScript underscores my commitment to writing type-safe and maintainable code. Complementing these technologies, the project's sleek and adaptive design is achieved through Tailwind CSS, ensuring a consistent and visually appealing user experience. This capstone project highlights my proficiency and hands-on experience with Vue 3, Pinia, TypeScript, Tailwind CSS, and Firebase Authentication, demonstrating my ability to develop dynamic, scalable, and user-centric web applications that align with industry standards and best practices.          </p>
         </div>
       </section>
 
