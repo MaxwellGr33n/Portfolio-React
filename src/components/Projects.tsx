@@ -7,7 +7,7 @@ export default function Projects(): JSX.Element {
       <section id="project1">
         <DividerTop />
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-b from-black to-blue-800">
-          <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-5/6 sm:w-4/6 h-auto">
+          <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-5/6 sm:w-4/6 max-w-5xl h-auto">
             <div className="p-3 sm:p-6 text-xl lg:text-4xl">
               <img src='/Screenshot-betmates.png' />
             </div>
@@ -44,7 +44,7 @@ export default function Projects(): JSX.Element {
       <section id="project2">
         <DividerTop />
         <div className="flex flex-col h-[450px] md:h-[600px] lg:h-[800px] justify-center items-center self-center flex-grow bg-gradient-to-t from-black to-blue-800">
-          <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-5/6 sm:w-4/6 h-auto">
+          <div className="flex justify-center items-center bg-neutral-100 dark:bg-gray-800 shadow-lg rounded-xl w-5/6 sm:w-4/6 max-w-5xl h-auto">
             <div className="p-3 sm:p-6 text-xl lg:text-4xl">
               <img src='/Screenshot-weddingWebsite.png' />
             </div>
